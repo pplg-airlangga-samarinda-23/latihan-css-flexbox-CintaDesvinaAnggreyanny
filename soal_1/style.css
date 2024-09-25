@@ -1,0 +1,36 @@
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #2c3e50; /* Warna latar belakang tombol */
+    color: white;              /* Warna teks */
+    padding: 15px 30px;
+    border-radius: 10px;        /* Membuat sudut tumpul */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Memberikan efek bayangan */
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #1abc9c;  /* Warna saat tombol di-hover */
+}
